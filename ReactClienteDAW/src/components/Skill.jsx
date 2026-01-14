@@ -1,14 +1,18 @@
 import React from "react";
 
-export const Skill = ({text}) => {
+export default function Skill ({array, show}) {
 
     return (
 
-        <>
+        show && (
 
-            <li>{text}</li>
+            <ul>
 
-        </>
+                {array.map(skill => (<li key={skill}>{skill}</li>))}
+
+            </ul>
+
+        )
 
     )
 

@@ -7,6 +7,7 @@ export const Footer = ({year}) => {
         <>
 
             <p>{year} - Aplicación creada con React</p>
+
         </>
 
     )
